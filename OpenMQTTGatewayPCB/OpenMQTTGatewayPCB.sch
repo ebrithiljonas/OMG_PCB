@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "OpenMQTTGateway PCB"
 Date "2019-07-31"
-Rev "1"
+Rev "1.1"
 Comp "ebrithil.ch"
 Comment1 ""
 Comment2 ""
@@ -468,7 +468,7 @@ Text GLabel 2450 2800 2    50   Input ~ 0
 RX
 Wire Wire Line
 	2350 2800 2450 2800
-Text GLabel 8000 2650 0    50   Output ~ 0
+Text GLabel 8050 2250 1    50   Output ~ 0
 RX
 Text GLabel 6750 2800 0    50   Input ~ 0
 D1
@@ -633,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2850 7750 3300
 Wire Wire Line
-	8100 2650 8000 2650
+	8100 2650 8050 2650
 Wire Wire Line
 	8100 2750 7750 2750
 Wire Wire Line
@@ -896,4 +896,22 @@ Wire Wire Line
 	2050 6400 2050 7000
 Wire Wire Line
 	1500 7100 2050 7100
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5D45975E
+P 8050 2450
+F 0 "SW1" V 8000 2550 50  0000 L CNN
+F 1 "SW_SPST" V 7900 2550 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile" H 8050 2450 50  0001 C CNN
+F 3 "~" H 8050 2450 50  0001 C CNN
+F 4 "C126848" V 8050 2450 50  0001 C CNN "LCSC"
+	1    8050 2450
+	0    1    1    0   
+$EndComp
+Text Notes 8500 4700 0    59   ~ 0
+Funktioniert:\n- DHT11\n- PIR (SR505)\n- RF RX (SRX882)\n- RF TX (STX882)\n
+Text Notes 6550 2100 0    59   ~ 0
+Antennas 2x: C97360
+Text Notes 5850 4600 0    59   ~ 0
+Fehler:\n- U3: GND und Vs verkehrt im Footprint\n- 5V Stecker umplatzieren\n- Leiterbahnen LED zu Transistor grösser machen
 $EndSCHEMATC
