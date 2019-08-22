@@ -854,6 +854,8 @@ Text Notes 8500 4950 0    59   ~ 0
 Funktioniert:\n- DHT11\n- PIR (SR505)\n- RF RX (SRX882)\n- RF TX (STX882)\n\n\n
 Text Notes 6550 2150 0    59   ~ 0
 Antennas 2x: C97360
+Text Notes 5850 4550 0    59   ~ 0
+Fehler:\n- 5V Stecker umplatzieren
 $Comp
 L Transistor_FET:DMG3402L Q1
 U 1 1 5D55CA58
