@@ -35,6 +35,8 @@ You need to change the pins like this:
 #define HCSR501_PIN D5
 
 // config_DHT.h
+#define DHT_SENSOR_TYPE DHT11 //uncomment for DHT11 Sensor
+//#define DHT_SENSOR_TYPE DHT22 //uncomment for DHT22 Sensor (default for backwards compatibility)
 #define DHT_RECEIVER_PIN D2
 
 // config_BT.h
