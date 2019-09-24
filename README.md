@@ -13,8 +13,8 @@ All in One PCB for the OpenMQTTGateway Project
 | DHT             | DHT-11        |
 | Bluetooth       | HM-10         |
 
-Full BOM is [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).
-Download Gerber [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).
+Full BOM is [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).  
+Download Gerber [here](https://github.com/ebrithiljonas/OMG_PCB/raw/master/Documents/Gerber.zip).
 
 ### Configuration
 
