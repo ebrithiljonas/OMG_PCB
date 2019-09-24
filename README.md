@@ -1,8 +1,6 @@
 # OMG PCB
 All in One PCB for the OpenMQTTGateway Project
 
-Warning: This is still Work in Progress, the PCB is still untested.
-
 ### Hardware
 | Usage           | Hardware      |
 |-----------------|---------------|
@@ -15,7 +13,7 @@ Warning: This is still Work in Progress, the PCB is still untested.
 | DHT             | DHT-11        |
 | Bluetooth       | HM-10         |
 
-Full BOM is [here](https://ebrithil.ch).
+Full BOM is [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).
 
 ### Configuration
 
