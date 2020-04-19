@@ -1,5 +1,5 @@
 # OMG PCB
-All in One PCB for the OpenMQTTGateway Project
+All in One PCB for the [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) Project
 
 ### Hardware
 | Usage           | Hardware      |
