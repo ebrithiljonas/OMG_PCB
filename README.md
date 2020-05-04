@@ -4,7 +4,7 @@ All in One PCB for the [OpenMQTTGateway](https://github.com/1technophile/OpenMQT
 ### Hardware
 | Usage           | Hardware      |
 |-----------------|---------------|
-| Microcontroller | Lolin NodeMCU |
+| Microcontroller | NodeMCU v1.0  |
 | IR Receive      | TSOP21        |
 | IR Send         | IR204A        |
 | RF Receive      | SRX882        |
@@ -14,6 +14,7 @@ All in One PCB for the [OpenMQTTGateway](https://github.com/1technophile/OpenMQT
 | Bluetooth       | HM-10         |
 
 Full BOM is [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).
+Attention! The ESP Board is the wrong type in the BOM, it's the NodeMCU v1.0, NOT the v0.9.
 Download Gerber [here](https://ebrithiljonas.github.io/OMG_PCB/ibom).
 
 ### Configuration
