@@ -1,4 +1,5 @@
 # OMG PCB
+# This Project is not up to date with the newest OpenMQTTGateway
 All in One PCB for the [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) Project
 
 ### Hardware
